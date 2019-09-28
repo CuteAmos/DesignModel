@@ -1,10 +1,10 @@
-package demo_factory.factory;
+package factory.simpleFactory.factory;
 
-import demo_factory.Operation;
-import demo_factory.operation.OperationAdd;
-import demo_factory.operation.OperationDiv;
-import demo_factory.operation.OperationMul;
-import demo_factory.operation.OperationSub;
+import factory.simpleFactory.Operation;
+import factory.simpleFactory.operation.OperationAdd;
+import factory.simpleFactory.operation.OperationDiv;
+import factory.simpleFactory.operation.OperationMul;
+import factory.simpleFactory.operation.OperationSub;
 
 public class OperationFactory {
     public static Operation createOperation(String operator){

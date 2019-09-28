@@ -1,6 +1,6 @@
-package demo_factory.operation;
+package factory.simpleFactory.operation;
 
-import demo_factory.Operation;
+import factory.simpleFactory.Operation;
 
 public class OperationDiv extends Operation {
     @Override

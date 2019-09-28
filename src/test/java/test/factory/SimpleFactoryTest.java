@@ -1,16 +1,14 @@
 package test.factory;
 
-import demo_factory.Operation;
-import demo_factory.factory.OperationFactory;
+import factory.simpleFactory.Operation;
+import factory.simpleFactory.factory.OperationFactory;
 import org.junit.Test;
 
-public class FactoryTest {
+public class SimpleFactoryTest {
     @Test
-    public void testOperation(){
+    public void testSimpleFactory(){
         Operation operation = OperationFactory.createOperation("/");
         operation.setNum1(20d);
         System.out.println(operation.getRes());
     }
-
-
 }
