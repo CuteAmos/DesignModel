@@ -1,4 +1,4 @@
-package demo;
+package demo_factory;
 
 public abstract class Operation {
     private double num1 = 0;

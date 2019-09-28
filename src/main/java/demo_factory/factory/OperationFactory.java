@@ -1,13 +1,13 @@
-package demo.factory;
+package demo_factory.factory;
 
-import demo.Operation;
-import demo.operation.OperationAdd;
-import demo.operation.OperationDiv;
-import demo.operation.OperationMul;
-import demo.operation.OperationSub;
+import demo_factory.Operation;
+import demo_factory.operation.OperationAdd;
+import demo_factory.operation.OperationDiv;
+import demo_factory.operation.OperationMul;
+import demo_factory.operation.OperationSub;
 
 public class OperationFactory {
-    public static Operation cerateOperation(String operator){
+    public static Operation createOperation(String operator){
         Operation operation = null;
         switch(operator){
             case "+":operation = new OperationAdd();break;

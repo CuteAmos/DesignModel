@@ -1,6 +1,6 @@
-package demo.operation;
+package demo_factory.operation;
 
-import demo.Operation;
+import demo_factory.Operation;
 
 public class OperationAdd extends Operation {
     @Override
