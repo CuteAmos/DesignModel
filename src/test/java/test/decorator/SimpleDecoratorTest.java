@@ -13,7 +13,7 @@ public class SimpleDecoratorTest {
         ConcreteDecoratorB decoratorB = new ConcreteDecoratorB();
         decoratorA.setComponent(c);
         decoratorB.setComponent(decoratorA);
-          decoratorB.operation();
+        decoratorB.operation();
 //        ConcreteComponent 具体对象
 //        ConcreteDecoratorA 进行 装饰
 //        ConcreteDecoratorB 进行了装饰
