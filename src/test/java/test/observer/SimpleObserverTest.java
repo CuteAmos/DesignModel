@@ -1,6 +1,5 @@
 package test.observer;
 
-import observer.simpleObserver.observer.IObserver;
 import observer.simpleObserver.observer.impl.ConcreteObserver;
 import observer.simpleObserver.subject.Subject;
 import observer.simpleObserver.subject.concrete.ConcreteSubject;
