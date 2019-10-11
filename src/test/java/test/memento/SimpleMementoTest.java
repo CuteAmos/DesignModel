@@ -6,7 +6,7 @@ import org.junit.Test;
 
 public class SimpleMementoTest {
     @Test
-    public void testSimpleMemento(){
+    public void testSimpleMemento() {
         Originator originator = new Originator();
         System.out.println("存档之前原始状态：");
         originator.setState("on");

@@ -12,14 +12,17 @@ public class Originator {
     public void setState(String state) {
         this.state = state;
     }
-    public Memento createMemento(){
+
+    public Memento createMemento() {
         return new Memento(state);
     }
-    public void setMemento(Memento memento){
+
+    public void setMemento(Memento memento) {
         this.setState(memento.getState());
     }
-    public void show(){
-        System.out.println("当前state为："+state);
+
+    public void show() {
+        System.out.println("当前state为：" + state);
     }
 
 }

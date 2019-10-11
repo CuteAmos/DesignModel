@@ -5,6 +5,7 @@ import memento.simpleMemento.memento.Memento;
 public class Caretaker {
     private Memento memento;
 
+
     public Memento getMemento() {
         return memento;
     }
